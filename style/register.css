@@ -1,0 +1,17 @@
+form{position:relative; height:100%; width:100%;}
+table{height:90%; width:100%;}
+
+
+table td{height:32px; text-align:left; padding:2px 0 2px; width:300px;}
+td input{height:80%; border:2px solid #AAA; }
+.desc{width:150px;}
+
+table .opt input{width:15px; height:15px;}
+.reg{width:100px; height:30px; background:#999; color:#FFF; cursor:pointer;}
+.reg:hover{background:#0FF;}
+.check{height:15px; width:15px; left:2%;}
+#termbox{position:absolute; z-index:250; margin:auto; height:96%; width:96%; background:#EEE; border:2px solid black; padding:2%; border-radius:10px; top:0;left:0; }
+#termbox div{overflow:auto; width:95%; height:95%;margin:auto; top:5%; font-family:Times;}
+#termbox img{float:right; height:20px; width:20px; padding:1px; cursor:pointer;}
+#termbox img:hover{height:22px; width:22px; padding:0;}
+#termbox div b{font-weight:bold; font-size: 16px;}
